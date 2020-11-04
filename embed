@@ -1,0 +1,7 @@
+if(command === 'embed'){
+    const embed = new Discord.MessageEmbed()
+    .setTitle('Example Text Embed')
+    .setDescription('This is a Basic Example ')
+    .setColor('FF0000')
+    message.channel.send(embed)
+}
